@@ -31,6 +31,7 @@
 #include <stdlib.h>
 #include <fcntl.h>
 #include <errno.h>
+#include <sched.h>
 #include <string.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -48,7 +49,7 @@
 
 #define LOG_TAG "QCLDR-"
 
-#include <cutils/log.h>
+#include <log/log.h>
 #include <cutils/memory.h>
 #include <cutils/misc.h>
 #include <cutils/properties.h>
